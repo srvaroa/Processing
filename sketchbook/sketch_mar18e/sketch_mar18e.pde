@@ -1,3 +1,13 @@
+// 2012-03-19 Galo Navarro <anglorvaroa@gmail.com> 
+//
+// Displays commits as growing circles in a grid or circle with
+// a center per committer. Code not nice. I just wanted to get things
+// rendered.
+//
+// Uses a mercurial log output like:
+//   hg log --template '{date}\t{author}\t{node}\n'
+// I used source data from work so didn't commit
+
 // screen setup
 int width = 1200;
 int height = 900;
